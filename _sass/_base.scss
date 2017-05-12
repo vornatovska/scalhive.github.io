@@ -285,6 +285,34 @@ header {
             }
         }
     }
+        @media (min-width: 350px) and (max-width: 400px) {
+        .portfolio-box-caption {
+            .portfolio-box-caption-content {
+                .project-category {
+                    font-size: 14px;
+                }
+                .project-name {
+                    padding-left: 20%;
+                    text-align: left;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    @media (max-width: 349px) {
+        .portfolio-box-caption {
+            .portfolio-box-caption-content {
+                .project-category {
+                    font-size: 12px;
+                }
+                .project-name {
+                    padding-left: 20%;
+                    text-align: left;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 }
 
 .call-to-action {
