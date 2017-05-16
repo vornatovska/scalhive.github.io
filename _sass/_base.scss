@@ -12,6 +12,7 @@ hr {
     border-color: $theme-primary;
     border-width: 3px;
     max-width: 50px;
+
 }
 
 hr.light {
@@ -144,6 +145,7 @@ aside {
             .nav > li > a:focus {
                 color: $theme-dark;
                 &:hover {
+
                     color: $theme-primary;
                 }
             }
@@ -285,7 +287,8 @@ header {
             }
         }
     }
-        @media (min-width: 350px) and (max-width: 400px) {
+
+    @media (min-width: 350px) and (max-width: 400px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
@@ -408,7 +411,7 @@ a > img{
 
 
 }
-#about h2, #about h3, #jobs h2, #jobs h3, #contact-text h2{
+#about h2, #about h3, #jobs h2, #jobs h3, #contact-text h2, #contact h3, .characters h2, .characters h3{
 
     font-size: 29px;
     //font-family: 'Frank Ruhl Libre', sans-serif;
@@ -426,8 +429,21 @@ a > img{
     color: black;
 
 }
+#contact{
+    font-size: 16px;
+    color: white;
+}
+#contact h3{
+    color: white;
 
-.about, #jobs, #contact-text {
+}
+.characters h2{
+    padding-bottom: 1%;
+}
+.characters h3{
+    font-size: 18px;
+}
+.about, #jobs, #contact-text, #contact {
     font-family: 'Yrsa', serif;
     //font-family: 'Frank Ruhl Libre', sans-serif;
     //font-family: 'Petrona', serif;
@@ -463,6 +479,11 @@ a > img{
 
 }
 
+#about .first-block-1{
+    padding-top: 3%;
+    text-align: center;
+}
+
 #about .second-block{
     padding-left: 5%;
 }
@@ -495,6 +516,8 @@ a > img{
 #contact {
     text-align: center;
     height: 2%;
+
+    padding-bottom: 5%;
 }
 #jobs{
     background-color: white;
@@ -531,7 +554,40 @@ a > img{
     height: 100%;
 }
 
+.right{
+    font-size: 20px;
+    color: #575951;
+}
 
+.characters {
+    padding-top: 3%;
+    background-color: #fff;
+    border-bottom: 7px solid #fff;
+    position: relative;
+}
+
+.characters::after {
+    z-index: 1;
+    border: medium solid transparent;
+    content: "";
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-color: #fff rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+    border-width: 25px;
+    margin-left: -25px;
+}
+.characters img{
+    height: 20px;
+    text-align: center;
+}
+
+.characters-click{
+    text-align: center;
+    padding-bottom: 1%;
+}
 
 
 
