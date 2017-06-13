@@ -77,7 +77,7 @@ aside {
 
 // Navigation
 .navbar-brand{
-    width: 30px;
+    width: 70px;
 }
 .navbar-default {
     background-color: white;
@@ -396,24 +396,25 @@ body {
 }
 
 a > img{
-    height: 160%;
+    height: 250%;
 
 }
 #about{
 
     height: auto;
-    background-color: white;
-    padding-top: 2%;
+    background: #FDFCFC;
+    //padding-top: 2%;
     color: black;
     text-align: justify;
     font-size: 20px;
+    letter-spacing: 1px;
     line-height: 1.5;
 
 }
 
 #about .row {
 
-    background-color: white;
+    background-color: #FDFCFC;
 
 
 }
@@ -421,10 +422,10 @@ a > img{
 
     font-size: 29px;
     //font-family: 'Yrsa', serif;
-    font-family: serif;
+    font-family: "Archivo Narrow", sans-serif;
     font-weight: 700;
     text-align: center;
-    padding: 0 0 3%;
+    //padding: 0 0 3%;
     color: black;
 
 }
@@ -448,14 +449,19 @@ a > img{
 .about, #jobs, #contact-text, #contact {
     //font-family: 'Yrsa', serif;
 
-    font-family: Serif;
-    line-height: 1.5;
+    //font-family:
+    font-family: "Archivo Narrow", sans-serif;
+
 
 
 }
-#about h2{
-    padding-bottom: 0;
-    font-family: serif;
+#about h2, #team h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 38px;
+    text-align: center;
+
 }
 
 #jobs h2{
@@ -473,18 +479,18 @@ a > img{
 }
 #about .first-block, #about .second-block, #about .three-block{
     height: auto;
-    padding: 2%;
-    padding-left: 5%;
+    //padding: 2%;
+    //padding-left: 5%;
 
 }
 
 #about .first-block-1{
-    padding-top: 3%;
+    //padding-top: 3%;
     text-align: left;
 }
 
 #about .second-block{
-    padding-left: 5%;
+    //padding-left: 5%;
 }
 
 #about ol>li{
@@ -498,6 +504,13 @@ a > img{
     list-style-position: inside;
 }
 
+#about img{
+    height: 400px;
+    padding-bottom: 10px;
+}
+#team {
+    background: #e7eff2;
+}
 #jobs img{
     width: 20px;
     height: 20px;
@@ -639,5 +652,9 @@ a > img{
 
 #contact h3{
     padding-bottom: 4%;
+}
+
+.nav{
+    padding: 1% 0;
 }
 
